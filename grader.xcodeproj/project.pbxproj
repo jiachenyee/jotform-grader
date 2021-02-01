@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		32121BB425C79C5300D55392 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32121BB325C79C5300D55392 /* main.swift */; };
+		32121BBC25C79EF100D55392 /* Marking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32121BBB25C79EF100D55392 /* Marking.swift */; };
+		32AFB6F125C7A4200086A4F8 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AFB6EA25C7A41F0086A4F8 /* Parser.swift */; };
+		32AFB6F225C7A4200086A4F8 /* EnumeratedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AFB6EB25C7A41F0086A4F8 /* EnumeratedView.swift */; };
+		32AFB6F325C7A4200086A4F8 /* ParsingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AFB6EC25C7A41F0086A4F8 /* ParsingState.swift */; };
+		32AFB6F425C7A4200086A4F8 /* NamedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AFB6ED25C7A4200086A4F8 /* NamedView.swift */; };
+		32AFB6F525C7A4200086A4F8 /* String+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AFB6EE25C7A4200086A4F8 /* String+Lines.swift */; };
+		32AFB6F625C7A4200086A4F8 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AFB6EF25C7A4200086A4F8 /* Description.swift */; };
+		32AFB6F725C7A4200086A4F8 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AFB6F025C7A4200086A4F8 /* CSV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,14 @@
 /* Begin PBXFileReference section */
 		32121BB025C79C5300D55392 /* grader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = grader; sourceTree = BUILT_PRODUCTS_DIR; };
 		32121BB325C79C5300D55392 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		32121BBB25C79EF100D55392 /* Marking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marking.swift; sourceTree = "<group>"; };
+		32AFB6EA25C7A41F0086A4F8 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		32AFB6EB25C7A41F0086A4F8 /* EnumeratedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumeratedView.swift; sourceTree = "<group>"; };
+		32AFB6EC25C7A41F0086A4F8 /* ParsingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsingState.swift; sourceTree = "<group>"; };
+		32AFB6ED25C7A4200086A4F8 /* NamedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedView.swift; sourceTree = "<group>"; };
+		32AFB6EE25C7A4200086A4F8 /* String+Lines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Lines.swift"; sourceTree = "<group>"; };
+		32AFB6EF25C7A4200086A4F8 /* Description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
+		32AFB6F025C7A4200086A4F8 /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,14 @@
 			isa = PBXGroup;
 			children = (
 				32121BB325C79C5300D55392 /* main.swift */,
+				32121BBB25C79EF100D55392 /* Marking.swift */,
+				32AFB6F025C7A4200086A4F8 /* CSV.swift */,
+				32AFB6EF25C7A4200086A4F8 /* Description.swift */,
+				32AFB6EB25C7A41F0086A4F8 /* EnumeratedView.swift */,
+				32AFB6ED25C7A4200086A4F8 /* NamedView.swift */,
+				32AFB6EA25C7A41F0086A4F8 /* Parser.swift */,
+				32AFB6EC25C7A41F0086A4F8 /* ParsingState.swift */,
+				32AFB6EE25C7A4200086A4F8 /* String+Lines.swift */,
 			);
 			path = grader;
 			sourceTree = "<group>";
@@ -119,7 +143,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32AFB6F625C7A4200086A4F8 /* Description.swift in Sources */,
+				32AFB6F425C7A4200086A4F8 /* NamedView.swift in Sources */,
+				32AFB6F325C7A4200086A4F8 /* ParsingState.swift in Sources */,
+				32AFB6F225C7A4200086A4F8 /* EnumeratedView.swift in Sources */,
 				32121BB425C79C5300D55392 /* main.swift in Sources */,
+				32AFB6F725C7A4200086A4F8 /* CSV.swift in Sources */,
+				32121BBC25C79EF100D55392 /* Marking.swift in Sources */,
+				32AFB6F125C7A4200086A4F8 /* Parser.swift in Sources */,
+				32AFB6F525C7A4200086A4F8 /* String+Lines.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
